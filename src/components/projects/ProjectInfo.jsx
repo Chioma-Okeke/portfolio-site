@@ -40,8 +40,7 @@ function Info({ singleProject }) {
                                     key={info.id}
                                 >
                                     <span>{info.title}: </span>
-                                    <a
-                                        href="#"
+                                    <p
                                         className={
                                             info.title === "Website" ||
                                             info.title === "Phone"
@@ -51,7 +50,7 @@ function Info({ singleProject }) {
                                         aria-label="Project Website and Phone"
                                     >
                                         {info.details}
-                                    </a>
+                                    </p>
                                 </li>
                             );
                         })}
