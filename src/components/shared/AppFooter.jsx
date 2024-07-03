@@ -9,7 +9,7 @@ const socialLinks = [
 	{
 		id: 1,
 		icon: <FiGlobe />,
-		url: '',
+		url: 'https://chummycodes.netlify.app/',
 	},
 	{
 		id: 2,
