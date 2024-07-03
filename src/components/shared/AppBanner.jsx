@@ -73,7 +73,7 @@ const AppBanner = () => {
                     src={
                         activeTheme === "dark"
                             ? developerHeroImageDark
-                            : developerHeroImage
+                            : developerHeroImageDark
                     }
                     alt="Developer"
                     className="w-full float-right"
