@@ -1,5 +1,5 @@
 // import useThemeSwitcher from "../../hooks/useThemeSwitcher";
-import { FiArrowDownCircle } from "react-icons/fi";
+// import { FiArrowDownCircle } from "react-icons/fi";
 import developerHeroImageDark from "../../images/hero-image-dark-mode.png";
 import { motion } from "framer-motion";
 
