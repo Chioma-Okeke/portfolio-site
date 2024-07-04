@@ -1,11 +1,10 @@
-import useThemeSwitcher from "../../hooks/useThemeSwitcher";
+// import useThemeSwitcher from "../../hooks/useThemeSwitcher";
 import { FiArrowDownCircle } from "react-icons/fi";
-import developerHeroImage from "../../images/hero-image.png";
 import developerHeroImageDark from "../../images/hero-image-dark-mode.png";
 import { motion } from "framer-motion";
 
 const AppBanner = () => {
-    const [activeTheme] = useThemeSwitcher();
+    // const [activeTheme] = useThemeSwitcher();
 
     return (
         <motion.section
