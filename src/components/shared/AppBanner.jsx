@@ -39,7 +39,7 @@ const AppBanner = () => {
                     Welcome to the Space of a Frontend Engineer and a Technology
                     Enthusiast
                 </motion.p>
-                <motion.div
+                {/* <motion.div
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     transition={{
@@ -60,7 +60,7 @@ const AppBanner = () => {
                             Download CV
                         </span>
                     </a>
-                </motion.div>
+                </motion.div> */}
             </div>
             <motion.div
                 initial={{ opacity: 0, y: -180 }}
