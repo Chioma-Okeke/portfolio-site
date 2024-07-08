@@ -1,8 +1,34 @@
 import { motion } from 'framer-motion';
 import { FiX } from 'react-icons/fi';
 import Button from './reusable/Button';
+import { useState } from 'react';
 
 const HireMeModal = ({ onClose, onRequest }) => {
+	const [formData, setFormData] = useState({})
+
+	function handleChange (e) {
+		const {name, value }= e.target
+		console.log(name, value)
+		console.log(e.target.value)
+		setFormData(prevState => {
+			return {
+				...prevState,
+				[name]: value	
+			}
+		})
+	}
+
+	function submitForm(e) {
+		console.log(formData)
+		e.preventDefault()
+		fetch("/macros/s/AKfycbyIR8cqRC4NhFNHEEfSHVtC2-SOsAXWS6iRRNADgd6z_YdyUgfQJbmeLELrNhNjYAsfjw/exec", {
+			method: "POST",
+			body: formData
+		}).then((res) => res.json()).then((data)=>{
+			console.log(data)
+		}).catch((err) => console.log(err))
+	}
+
 	return (
 		<motion.div
 			initial={{ opacity: 0 }}
@@ -31,7 +57,7 @@ const HireMeModal = ({ onClose, onRequest }) => {
 						<div className="modal-body p-5 w-full h-full">
 							<form
 								onSubmit={(e) => {
-									e.preventDefault();
+									submitForm(e)
 								}}
 								className="max-w-xl m-4 text-left"
 							>
@@ -41,9 +67,11 @@ const HireMeModal = ({ onClose, onRequest }) => {
 										id="name"
 										name="name"
 										type="text"
+										value={formData.name}
 										required=""
 										placeholder="Name"
 										aria-label="Name"
+										onChange={(e) => handleChange(e)}
 									/>
 								</div>
 								<div className="mt-6">
@@ -52,9 +80,11 @@ const HireMeModal = ({ onClose, onRequest }) => {
 										id="email"
 										name="email"
 										type="text"
+										value={formData.email}
 										required=""
 										placeholder="Email"
 										aria-label="Email"
+										onChange={(e) => handleChange(e)}
 									/>
 								</div>
 
@@ -65,14 +95,15 @@ const HireMeModal = ({ onClose, onRequest }) => {
 										name="message"
 										cols="14"
 										rows="6"
+										value={formData.message}
 										aria-label="Details"
 										placeholder="Project description"
+										onChange={(e) => handleChange(e)}
 									></textarea>
 								</div>
 
 								<div className="mt-6 pb-4 sm:pb-1">
 									<span
-										onClick={onClose}
 										type="submit"
 										className="px-4
 											sm:px-6
