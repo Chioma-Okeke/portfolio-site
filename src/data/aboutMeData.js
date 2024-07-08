@@ -1,10 +1,11 @@
 export const aboutMeData = [
 	{
-		id: 1,
-		bio: 'Detail-oriented and results-driven Front-End Developer with hands-on experience implementing and maintaining healthcare and custom web application features. Proven expertise in utilizing javascript frameworks such as Aurelia and React and web scripting languages such as JavaScript and Typescript to enhance user experience and website engagement. Adept at collaborating with cross-functional teams, contributing to system integration, and leading projects to successful completion.',
+		id: 2,
+		bio: "I'm an ambitious software engineer based in Lagos with almost 2 years of professional experience in transforming ideas from 0 to 100 and creating captivating digital experiences that embody elegance, simplicity, and detail. I am also committed to a long-life journey of continuous growth to stay at the forefront of technology and personal development. I am fueled by a deep passion for the digital world",
 	},
-	// {
-	// 	id: 2,
-	// 	bio: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
-	// },
+	{
+		id: 1,
+		bio: 'I have hands-on experience implementing and maintaining healthcare and custom web application features. Proven expertise in utilizing javascript frameworks such as Aurelia and React and web scripting languages such as JavaScript and Typescript to enhance user experience and website engagement. Adept at collaborating with cross-functional teams and contributing to system integration',
+	},
 ];
+ 

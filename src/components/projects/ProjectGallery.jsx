@@ -24,7 +24,7 @@ function Gallery({ singleProject }) {
 
     return (
         <div>
-            <div className="flex flex-col md:flex-row md:gap-10 mt-12">
+            <div className="flex flex-col gap-3 md:flex-row mt-12">
                 {singleProject.ProjectImages.map((project) => {
                     return (
                         <div className="flex justify-center md:block mb-10 md:mb-0" key={project.id}>

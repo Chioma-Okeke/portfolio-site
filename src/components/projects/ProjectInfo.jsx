@@ -36,7 +36,7 @@ function Info({ singleProject }) {
                         {singleProject.ProjectInfo.CompanyInfo.map((info) => {
                             return (
                                 <li
-                                    className="font-general-regular text-ternary-dark dark:text-ternary-light"
+                                    className="flex gap-3 flex-row sm:flex-col xl:flex-row font-general-regular text-ternary-dark dark:text-ternary-light"
                                     key={info.id}
                                 >
                                     <span>{info.title}: </span>
