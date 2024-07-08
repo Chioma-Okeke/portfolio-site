@@ -20,6 +20,9 @@ import tictactoe1 from "../images/tictactoe1.png"
 import tictactoe2 from "../images/tictactoe2.png"
 import music1 from "../images/music1.png"
 import music2 from "../images/music2.png"
+import color1 from "../images/colorgame1.png"
+import color2 from "../images/colorgame2.png"
+import color3 from "../images/colorgame3.png"
 import Image6 from "../images/profile.jpg";
 // Import icons
 import { FiGithub, FiLinkedin } from "react-icons/fi";
@@ -390,8 +393,8 @@ export const singleProjectData = [
     {
         ProjectHeader: {
             title: "Tic-Tac-Toe",
-            publishDate: "June 24, 2024",
-            link: "https://chummy-tic-tac-toe.netlify.app/",
+            publishDate: "May 4, 2024",
+            link: "https://guess-the-color-alpha.vercel.app/",
         },
         ProjectImages: [
             {
@@ -517,6 +520,99 @@ export const singleProjectData = [
                     id: 1,
                     projectOverview:
                         "Chummy's Favorite Songs is an interactive music application that aims to provide an immersive experience for users. The application is designed to be fully responsive, ensuring an optimal user experience across various devices. It features a comprehensive list of my favorite songs, offering users a peek into my music preferences. One of the standout features is the genre section, which categorizes the songs, providing an organized and easy-to-navigate interface. In an upcoming version of the application, I plan to further enhance user interactivity by introducing volume control functionality, enabling users to adjust the volume directly within the application.",
+                    ProblemStatementAddressed: [],
+                    userStory: [],
+                },
+            ],
+            SocialSharingHeading: "Share This",
+            SocialSharing: [
+                {
+                    id: 1,
+                    name: "GitHub",
+                    icon: <FiGithub />,
+                    url: "https://github.com/Chioma-Okeke",
+                },
+                {
+                    id: 2,
+                    name: "LinkedIn",
+                    icon: <FiLinkedin />,
+                    url: "https://www.linkedin.com/in/okeke-chioma",
+                },
+            ],
+        },
+        RelatedProject: {
+            title: "Related Projects",
+            Projects: [
+                {
+                    id: 1,
+                    title: "Mobile UI",
+                    img: Image4,
+                },
+                {
+                    id: 2,
+                    title: "Web Application",
+                    img: Image5,
+                },
+                {
+                    id: 3,
+                    title: "UI Design",
+                    img: Image6,
+                },
+                {
+                    id: 4,
+                    title: "Kabul Mobile App UI",
+                    img: goDaddyImage3,
+                },
+            ],
+        },
+    },
+    {
+        ProjectHeader: {
+            title: "Guess the Color",
+            publishDate: "May 4, 2024",
+            link: "https://guess-the-color-alpha.vercel.app/",
+        },
+        ProjectImages: [
+            {
+                id: 1,
+                title: "Kabul Project Management UI",
+                img: color1,
+            },
+            {
+                id: 2,
+                title: "Kabul Project Management UI",
+                img: color2,
+            },
+            {
+                id: 2,
+                title: "Kabul Project Management UI",
+                img: color3,
+            },
+        ],
+        ProjectInfo: {
+            ClientHeading: "Page Replicated",
+            CompanyInfo: [
+                {
+                    id: 1,
+                    title: "Name",
+                    details: "Guess the Color",
+                },
+            ],
+            ObjectivesHeading: "Objective",
+            ObjectivesDetails:
+                "A responsive interactive game to mater rgb colors",
+            Technologies: [
+                {
+                    title: "Tools & Technologies",
+                    techs: ["Vanilla JS", "CSS", "HTML"],
+                },
+            ],
+            ProjectDetailsHeading: "Project Overview",
+            ProjectDetails: [
+                {
+                    id: 1,
+                    projectOverview:
+                        "The Guess the Color game is an engaging and interactive game that challenges players to match a given RGB color with the correct visual color from an array of options. The game is designed to be fully responsive, making it accessible and enjoyable on any device. Developed entirely with vanilla JavaScript, it's a testament to the power and versatility of fundamental web technologies.",
                     ProblemStatementAddressed: [],
                     userStory: [],
                 },

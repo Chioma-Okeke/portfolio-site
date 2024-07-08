@@ -16,7 +16,7 @@ export const projectsData = [
     {
         id: 3,
         title: "GoDaddy Clone",
-        category: ["React, Tailwind Css"],
+        category: ["React", "Tailwind Css"],
         img: "https://chummycopygoodaddy.netlify.app/",
     },
     {
@@ -39,20 +39,20 @@ export const projectsData = [
     },
     {
         id: 7,
+        title: "Guess the Color",
+        category: ["Vanilla JS", "CSS", "HTML"],
+        img: "https://guess-the-color-alpha.vercel.app/",
+    },
+    {
+        id: 8,
         title: "Chummy's Music App",
         category: ["Vanilla JS", "CSS", "HTML"],
         img: "https://chummyfavsongs.netlify.app/",
     },
     {
-        id: 8,
+        id: 9,
         title: "Words for the Soul",
         category: ["Vanilla JS", "CSS", "HTML"],
         img: "https://wordsforthesoul.netlify.app/",
     },
-    // {
-    //     id: 8,
-    //     title: "Words for the Soul",
-    //     category: ["Vanilla JS", "CSS", "HTML"],
-    //     img: "https://wordsforthesoul.netlify.app/",
-    // },
 ];
