@@ -394,7 +394,7 @@ export const singleProjectData = [
         ProjectHeader: {
             title: "Tic-Tac-Toe",
             publishDate: "May 4, 2024",
-            link: "https://guess-the-color-alpha.vercel.app/",
+            link: "https://chummy-tic-tac-toe.netlify.app/",
         },
         ProjectImages: [
             {
