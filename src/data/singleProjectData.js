@@ -24,6 +24,8 @@ import color1 from "../images/colorgame1.png"
 import color2 from "../images/colorgame2.png"
 import color3 from "../images/colorgame3.png"
 import Image6 from "../images/profile.jpg";
+import marketplace1 from "../images/marketplace-1.png"
+import marketplace2 from "../images/marketplace-2.png"
 // Import icons
 import { FiGithub, FiLinkedin } from "react-icons/fi";
 
@@ -85,13 +87,13 @@ export const singleProjectData = [
                     id: 1,
                     name: "GitHub",
                     icon: <FiGithub />,
-                    url: "https://github.com/Chioma-Okeke",
+                    url: "https://github.com/Chioma-Okeke/GoDaddy-clone",
                 },
                 {
                     id: 2,
                     name: "LinkedIn",
                     icon: <FiLinkedin />,
-                    url: "https://www.linkedin.com/in/okeke-chioma",
+                    url: "https://www.linkedin.com",
                 },
             ],
         },
@@ -173,13 +175,13 @@ export const singleProjectData = [
                     id: 1,
                     name: "GitHub",
                     icon: <FiGithub />,
-                    url: "https://github.com/Chioma-Okeke",
+                    url: "https://github.com/Chioma-Okeke/quote-generator",
                 },
                 {
                     id: 2,
                     name: "LinkedIn",
                     icon: <FiLinkedin />,
-                    url: "https://www.linkedin.com/in/okeke-chioma",
+                    url: "https://www.linkedin.com",
                 },
             ],
         },
@@ -261,13 +263,13 @@ export const singleProjectData = [
                     id: 1,
                     name: "GitHub",
                     icon: <FiGithub />,
-                    url: "https://github.com/Chioma-Okeke",
+                    url: "https://github.com/Chioma-Okeke/Mother-nature-status",
                 },
                 {
                     id: 2,
                     name: "LinkedIn",
                     icon: <FiLinkedin />,
-                    url: "https://www.linkedin.com/in/okeke-chioma",
+                    url: "https://www.linkedin.com",
                 },
             ],
         },
@@ -354,13 +356,13 @@ export const singleProjectData = [
                     id: 1,
                     name: "GitHub",
                     icon: <FiGithub />,
-                    url: "https://github.com/Chioma-Okeke",
+                    url: "https://github.com/Chioma-Okeke/Responsive-blog-site",
                 },
                 {
                     id: 2,
                     name: "LinkedIn",
                     icon: <FiLinkedin />,
-                    url: "https://www.linkedin.com/in/okeke-chioma",
+                    url: "https://www.linkedin.com",
                 },
             ],
         },
@@ -442,13 +444,13 @@ export const singleProjectData = [
                     id: 1,
                     name: "GitHub",
                     icon: <FiGithub />,
-                    url: "https://github.com/Chioma-Okeke",
+                    url: "https://github.com/Chioma-Okeke/tic-tac-toe",
                 },
                 {
                     id: 2,
                     name: "LinkedIn",
                     icon: <FiLinkedin />,
-                    url: "https://www.linkedin.com/in/okeke-chioma",
+                    url: "https://www.linkedin.com",
                 },
             ],
         },
@@ -530,13 +532,13 @@ export const singleProjectData = [
                     id: 1,
                     name: "GitHub",
                     icon: <FiGithub />,
-                    url: "https://github.com/Chioma-Okeke",
+                    url: "https://github.com/Chioma-Okeke/chummy-song-app",
                 },
                 {
                     id: 2,
                     name: "LinkedIn",
                     icon: <FiLinkedin />,
-                    url: "https://www.linkedin.com/in/okeke-chioma",
+                    url: "https://www.linkedin.com",
                 },
             ],
         },
@@ -623,13 +625,13 @@ export const singleProjectData = [
                     id: 1,
                     name: "GitHub",
                     icon: <FiGithub />,
-                    url: "https://github.com/Chioma-Okeke",
+                    url: "https://github.com/Chioma-Okeke/Guess-the-color",
                 },
                 {
                     id: 2,
                     name: "LinkedIn",
                     icon: <FiLinkedin />,
-                    url: "https://www.linkedin.com/in/okeke-chioma",
+                    url: "https://www.linkedin.com/posts/okeke-chioma_hello-there-ive-always-wanted-to-take-activity-7191725675530092544-3SLi?utm_source=share&utm_medium=member_desktop",
                 },
             ],
         },
@@ -676,11 +678,6 @@ export const singleProjectData = [
                 title: "Kabul Project Management UI",
                 img: teleHealth2,
             },
-            // {
-            //     id: 3,
-            //     title: "Kabul Project Management UI",
-            //     img: goDaddyImage3,
-            // },
         ],
         ProjectInfo: {
             ClientHeading: "About Client",
@@ -730,13 +727,13 @@ export const singleProjectData = [
                     id: 1,
                     name: "GitHub",
                     icon: <FiGithub />,
-                    url: "https://github.com/Chioma-Okeke",
+                    url: "https://github.com/Chioma-Okeke/Tele-health",
                 },
                 {
                     id: 2,
                     name: "LinkedIn",
                     icon: <FiLinkedin />,
-                    url: "https://www.linkedin.com/in/okeke-chioma",
+                    url: "https://www.linkedin.com",
                 },
             ],
         },
@@ -775,17 +772,17 @@ export const singleProjectData = [
         ProjectImages: [
             {
                 id: 1,
-                title: "Kabul Project Management UI",
+                title: "Tolce Learning Hub",
                 img: tolceImage1,
             },
             {
                 id: 2,
-                title: "Kabul Project Management UI",
+                title: "Tolce Learning Hub",
                 img: tolceImage2,
             },
             {
                 id: 3,
-                title: "Kabul Project Management UI",
+                title: "Tolce Learning Hub",
                 img: tolceImage3,
             },
         ],
@@ -836,13 +833,112 @@ export const singleProjectData = [
                     id: 1,
                     name: "GitHub",
                     icon: <FiGithub />,
-                    url: "https://github.com/Chioma-Okeke",
+                    url: "https://github.com/Chioma-Okeke/Tolce-Learning-Hub",
                 },
                 {
                     id: 2,
                     name: "LinkedIn",
                     icon: <FiLinkedin />,
-                    url: "https://www.linkedin.com/in/okeke-chioma",
+                    url: "https://www.linkedin.com",
+                },
+            ],
+        },
+        RelatedProject: {
+            title: "Related Projects",
+            Projects: [
+                {
+                    id: 1,
+                    title: "Mobile UI",
+                    img: Image4,
+                },
+                {
+                    id: 2,
+                    title: "Web Application",
+                    img: Image5,
+                },
+                {
+                    id: 3,
+                    title: "UI Design",
+                    img: Image6,
+                },
+                {
+                    id: 4,
+                    title: "Kabul Mobile App UI",
+                    img: goDaddyImage3,
+                },
+            ],
+        },
+    },
+    {
+        ProjectHeader: {
+            title: "Online Marketplace",
+            publishDate: "July 19, 2024",
+            link: "https://shoparoundthecorner.netlify.app/",
+        },
+        ProjectImages: [
+            {
+                id: 1,
+                title: "Marketplace mobile view",
+                img: marketplace2,
+            },
+            {
+                id: 2,
+                title: "Marketplace desktop view",
+                img: marketplace1,
+            }
+        ],
+        ProjectInfo: {
+            ClientHeading: "About Client",
+            CompanyInfo: [
+                {
+                    id: 1,
+                    title: "Name",
+                    details: "Shop Around the Corner",
+                },
+                {
+                    id: 2,
+                    title: "Services",
+                    details: "Trade",
+                },
+            ],
+            ObjectivesHeading: "Objective",
+            ObjectivesDetails:
+                "An online marketplace platform designed to empower local communities by facilitating the exchange of goods and services within a 65km radius.",
+            Technologies: [
+                {
+                    title: "Tools & Technologies",
+                    techs: ["React", "Tailwind CSS", "Figma", "NodeJs", "AWS", "Docker", "MongoDB"],
+                },
+            ],
+            ProjectDetailsHeading: "Project Overview",
+            ProjectDetails: [
+                {
+                    id: 1,
+                    projectOverview:
+                        "I am developing an online marketplace platform designed to empower local communities by facilitating the exchange of goods and services within a 65km radius. This platform enables users to list, browse, and purchase items from individuals in their vicinity, promoting sustainability and fostering community connections. The project utilizes modern web technologies to create a seamless and intuitive user experience",
+                    ProblemStatementAddressed: [
+                        "Local Listings: Users can list and discover products and services offered by people nearby, making it easy to find what they need without having to travel far.",
+                        "User-Friendly Interface: The platform is designed with a focus on ease of use, featuring a clean, responsive design that works across all devices.",
+                        "Community Engagement: Encouraging local interactions, the platform includes features for users to rate and review transactions, fostering trust within the community.",
+                        "Real-Time Data: The marketplace features real-time updates, ensuring that users have access to the most current listings and availability.",
+                        "Advanced Search and Filters: Users can quickly find what they’re looking for with advanced search capabilities and filter options tailored to various categories."
+                    ],
+                    userStory: [],
+                },
+            ],
+            SocialSharingHeading: "Share This",
+            SocialSharing: [
+                {
+                    id: 1,
+                    name: "GitHub",
+                    icon: <FiGithub />,
+                    url: "https://github.com/Chioma-Okeke/online-marketplace",
+                },
+                {
+                    id: 2,
+                    name: "LinkedIn",
+                    icon: <FiLinkedin />,
+                    url: "https://www.linkedin.com",
                 },
             ],
         },
