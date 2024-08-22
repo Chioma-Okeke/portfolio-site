@@ -1,5 +1,3 @@
-import teleHealth1 from "../images/tele-health2.png"
-
 export const projectsData = [
     {
         id: 1,
